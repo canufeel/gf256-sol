@@ -1,0 +1,16 @@
+node_modules/
+coverageEnv/
+coverage/
+build/
+.idea/
+lib/
+
+**/.DS_Store
+*.log
+
+scTopics
+allFiredEvents
+coverage.json
+
+*.iml
+.vscode/launch.json
