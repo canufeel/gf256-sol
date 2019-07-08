@@ -79,7 +79,7 @@ library GF256 {
     }
 
     function gf256Div(uint8 a, uint8 b) internal pure returns (uint8) {
-        assert(b != 0, "GF256 Division by zero");
+        assert(b != 0);
         if (a == 0) {
             return 0;
         } else {
